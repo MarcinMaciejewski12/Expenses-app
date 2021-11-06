@@ -1,6 +1,6 @@
 import React from "react";
 import "./ExpensesFilter.css";
-import ExpenseDate from "../ExpenseDate";
+import ExpenseDate from "../ExpenseDate/ExpenseDate";
 
 const ExpensesFilter = (props) => {
   const dropdownChangeHandler = (event) => {
